@@ -5,7 +5,7 @@ import warnings
 from datetime import datetime
 
 from crew import TacticalPlanner
-
+from one import run_scouting_report
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
 # This main file is intended to be a way for you to run your
@@ -19,7 +19,8 @@ def run():
     """
     inputs = {
         'topic': 'Valorant',
-        'current_year': str(datetime.now().year)
+        'current_year': str(datetime.now().year),
+        "scout_report": run_scouting_report("NRG")
     }
     
     try:

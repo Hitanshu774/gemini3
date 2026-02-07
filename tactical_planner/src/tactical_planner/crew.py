@@ -74,11 +74,8 @@ class TacticalPlanner():
 
     @task
     def analyze_vul(self) -> Task:
-        scout_report = run_scouting_report("NRG")
         return Task(
             config=self.tasks_config['analyze_vul'], # type: ignore[index]
-            inputs = {"scout_report": scout_report},
-            context= [self.study_game],
             output_file='t1.md'
         )
         
@@ -86,7 +83,6 @@ class TacticalPlanner():
     def plan_attack(self) -> Task:
         return Task(
             config=self.tasks_config['plan_attack'], # type: ignore[index]
-            context=[self.study_game, self.analyze_vul],
             output_file='t2.md'
         )
 

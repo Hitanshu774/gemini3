@@ -10,6 +10,9 @@ study_game:
 
 analyze_vul:
   description: >
+    inputs:
+    scout_report: "{{ scout_report }}"
+
     Based on the given {scout_report} and the context provided by study_game task, identify
     the key vulnerabilities in their gameplay, comps, default site setups and any player specific
     weak trait that can be exploited. Also focus on the main fragger of the opponent team so that
@@ -17,6 +20,8 @@ analyze_vul:
   expected_output: >
     A full list of vulnerabilities of any type.
   agent: planning_agent
+  context: 
+    - study_game
 
 plan_attack:
   description: >
@@ -31,3 +36,6 @@ plan_attack:
     2.Defense phase tactics
     3.Key player tactics
   agent: counter_planner
+  context: 
+    - study_game
+    - analyze_vul
