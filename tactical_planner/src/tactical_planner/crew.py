@@ -4,19 +4,32 @@ from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledgeSource
 from one import run_scouting_report
+from crewai import Knowledge
 
-tactical_md = TextFileKnowledgeSource(
+# tactical_md = TextFileKnowledgeSource(
+#     file_paths=[
+#         "game_agenda.md",
+#         "maps.md",
+#         "planning.md",
+#         "sample_matches.md"
+#     ],
+#     vector_store=None,  # Pure reference (your requirement)
+#     chunk_overlap=0     # No splitting
+# )
+tactical_source = TextFileKnowledgeSource(
     file_paths=[
-        "tactical_planner/knowledge/game_agenda.md",
-        "tactical_planner/knowledge/maps.md",
-        "tactical_planner/knowledge/planning.md",
-        "tactical_planner/knowledge/sample_matches.md"
-    ],
-    vector_store=None,  # Pure reference (your requirement)
-    chunk_overlap=0     # No splitting
+        "game_agenda.md",
+        "maps.md",
+        "planning.md",
+        "sample_matches.md"
+    ]
 )
 
-scout_report = run_scouting_report("NRG")
+tactical_md = Knowledge(
+    collection_name="tactical_knowledge",
+    sources=[tactical_source]
+)
+
 
 @CrewBase
 class TacticalPlanner():
@@ -30,7 +43,7 @@ class TacticalPlanner():
     def studying_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['studying_agent'], # type: ignore[index]
-            knowledge=[tactical_md]
+            knowledge=tactical_md,
             verbose=True
         )
 
@@ -38,6 +51,7 @@ class TacticalPlanner():
     def planning_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['planning_agent'], # type: ignore[index]
+            knowledge=tactical_md,
             verbose=True
         )
     
@@ -45,6 +59,7 @@ class TacticalPlanner():
     def counter_planner(self) -> Agent:
         return Agent(
             config=self.agents_config['counter_planner'], # type: ignore[index]
+            knowledge=tactical_md,
             verbose=True
         )
 
@@ -59,18 +74,20 @@ class TacticalPlanner():
 
     @task
     def analyze_vul(self) -> Task:
+        scout_report = run_scouting_report("NRG")
         return Task(
             config=self.tasks_config['analyze_vul'], # type: ignore[index]
             inputs = {"scout_report": scout_report},
             context= [self.study_game],
-            output_file='report.md'
+            output_file='t1.md'
         )
         
     @task
     def plan_attack(self) -> Task:
         return Task(
             config=self.tasks_config['plan_attack'], # type: ignore[index]
-            output_file='report.md'
+            context=[self.study_game, self.analyze_vul],
+            output_file='t2.md'
         )
 
 #########################################################################

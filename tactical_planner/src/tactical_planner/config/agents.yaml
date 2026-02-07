@@ -5,6 +5,10 @@ studying_agent:
     learning and analysing {topic} at great depth
   backstory: >
     You're a seasoned coach who is the master of his art and has a very huge experience in the game
+  llm: openrouter/pony-alpha
+  temperature: 0.8
+
+
 
 planning_agent:
   role: >
@@ -14,6 +18,8 @@ planning_agent:
   backstory: >
     You're a meticulous senior tactical planner, who knows how to identify the 
     opponents vulnerabilities based on the scoting report.
+  llm: openrouter/pony-alpha
+  temperature: 1.0
 
 counter_planner:
   role: >
@@ -23,3 +29,5 @@ counter_planner:
   backstory: >
     You're a dominating senior tactical planner, who knows how to exploit the 
     opponents vulnerabilities for your teams advantage.
+  llm: openrouter/pony-alpha
+  temperature: 1.2
