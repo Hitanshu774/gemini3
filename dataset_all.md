@@ -6,13 +6,13 @@ Game Agenda:
 
 Below is an up‑to‑date overview of all current VALORANT agents (through Veto), their roles (class), their abilities (names + what they do), and their typical “job” in a team comp.
 
-Ability details are summarized from Riot’s official kits and long-form guides rather than copied verbatim. [playvalorant](https://playvalorant.com/en-us/agents/)
+Ability details are summarized from Riot’s official kits and long-form guides rather than copied verbatim. 
 
 ***
 
 ## 1. How roles work in VALORANT
 
-VALORANT has four agent **classes** (what Riot calls “roles”): Duelist, Initiator, Controller, Sentinel. [ign](https://www.ign.com/wikis/valorant/Concepts:_Roles_in_Valorant)
+VALORANT has four agent **classes** (what Riot calls “roles”): Duelist, Initiator, Controller, Sentinel. 
 
 - **Duelists**  
   Self-sufficient fraggers. Designed to **take first contact**, create space, and secure opening kills. They usually have mobility or self-heal/self-peek tools. If your team is attacking, duelists are expected to be first or second into sites.
@@ -39,7 +39,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ## 2. Duelists
 
-### Jett – Duelist (hyper-mobile entry / OP user) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Jett – Duelist (hyper-mobile entry / OP user) 
 - **Playstyle:** Extremely mobile, excels at taking aggressive peeks and escaping. Strong with Operator or high-mechanical rifling.
 - **C – Cloudburst:** Small smoke you can curve mid-air to instantly break sightlines.
 - **Q – Updraft:** Propel upward to gain vertical angles or combine with dash.
@@ -49,7 +49,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Phoenix – Duelist (self-sufficient brawler) [ign](https://www.ign.com/wikis/valorant/Valorant_Characters:_All_Agents)
+### Phoenix – Duelist (self-sufficient brawler) 
 - **Playstyle:** Straightforward duelist with flashes and self-healing via his own fire.
 - **Passive – Heating Up:** Heals when standing in his own fire abilities (up to a cap).
 - **C – Blaze:** Curved wall of fire that blocks vision and damages enemies; heals Phoenix.
@@ -60,7 +60,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Raze – Duelist (explosive entry / space clearer) [ign](https://www.ign.com/wikis/valorant/Valorant_Characters:_All_Agents)
+### Raze – Duelist (explosive entry / space clearer) 
 - **Playstyle:** High damage utility, excels at clearing corners and breaking setups with explosives.
 - **C – Boom Bot:** Small bot that travels forward, chases enemies in a cone, and explodes on contact.
 - **Q – Blast Pack:** Sticky satchel that can be detonated to damage and self‑propel for mobility.
@@ -70,7 +70,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Reyna – Duelist (snowball carry / hard entry) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Reyna – Duelist (snowball carry / hard entry) 
 - **Playstyle:** Extremely strong in ranked when mechanically gifted; relies on getting kills to fuel her kit.
 - **Passive – Soul Harvest:** Enemies she kills drop orbs.
 - **C – Leer:** Ethereal eye that nearsight-blinds enemies looking at it.
@@ -81,7 +81,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Yoru – Duelist (trickster / lurker) [ign](https://www.ign.com/wikis/valorant/Valorant_Characters:_All_Agents)
+### Yoru – Duelist (trickster / lurker) 
 - **Playstyle:** Deception and flanking; uses clones, teleports, and invisibility to confuse opponents.
 - **C – Fakeout:** Decoy that walks forward and blinds enemies when shot or triggered.
 - **Q – Blindside:** Flash that bounces off surfaces before detonating.
@@ -91,7 +91,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Neon – Duelist (speed entry / pathing control) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Neon – Duelist (speed entry / pathing control) 
 - **Playstyle:** Highest raw movement speed; excels at fast site hits and close-range duels.
 - **Passive – Energy:** Resource powering sprint and ult.
 - **C – Fast Lane:** Two parallel electric walls that block vision and damage slightly.
@@ -102,7 +102,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Iso – Duelist (duel specialist / shield-based fragger) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Iso – Duelist (duel specialist / shield-based fragger) 
 - **Playstyle:** Designed for isolated fights; gains temporary shields to out‑trade enemies.
 - **C – Contingency:** Forward-moving bullet‑blocking wall you can fight behind.
 - **Q – Undercut:** Projectile that inflicts Fragile (increased damage) through walls.
@@ -112,7 +112,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Waylay – Duelist (mobility + debuff “setup duelist”) [dotesports](https://dotesports.com/valorant/news/all-waylay-abilities-in-valorant)
+### Waylay – Duelist (mobility + debuff “setup duelist”) 
 - **Playstyle:** Extremely mobile duelist whose utility Hindering debuff slows enemy movement and gun handling instead of doing damage.
 - **C – Saturate:** Light cluster that detonates on impact, applying **Hinder** (slowed movement, fire rate, reload, equip, etc.).
 - **Q – Light Speed:** Dash ability; can double-dash, with the first dash capable of vertical lift, second horizontal.
@@ -124,7 +124,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ## 3. Initiators
 
-### Sova – Initiator (info gather / lineups) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Sova – Initiator (info gather / lineups) 
 - **Playstyle:** Long-range recon; excels on open maps with arrows and ult lineups.
 - **C – Owl Drone:** Remote drone that scouts and tags enemies.
 - **Q – Shock Bolt:** Explosive arrow that deals AoE damage.
@@ -134,7 +134,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Breach – Initiator (hard CC / set‑play enabler) [ign](https://www.ign.com/wikis/valorant/Concepts:_Roles_in_Valorant)
+### Breach – Initiator (hard CC / set‑play enabler) 
 - **Playstyle:** Heavy stun and knock-up; best when coordinated with teammates.
 - **C – Aftershock:** Wall‑through explosive pulses that damage in a small zone.
 - **Q – Flashpoint:** Flash that explodes through walls.
@@ -144,7 +144,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Skye – Initiator (flash + heal hybrid) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Skye – Initiator (flash + heal hybrid) 
 - **Playstyle:** Flexible support; provides healing, info and consistent flashes.
 - **C – Regrowth:** AoE healing channeled over time to nearby allies (not self).
 - **Q – Trailblazer:** Controllable tiger that concusses and damages on impact.
@@ -154,17 +154,17 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### KAY/O – Initiator (anti-ability / flash support) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### KAY/O – Initiator (anti-ability / flash support) 
 - **Playstyle:** Suppression-based initiator; counters heavy-ability comps.
 - **C – FRAG/MENT:** Sticky AoE damage grenade in pulses.
 - **Q – FLASH/DRIVE:** Versatile flash that can be thrown deep or popped close.
 - **E – ZERO/POINT (signature):** Knife that reveals and suppresses enemies in radius upon detonation.
 - **X – NULL/CMD:** Large pulsing suppression field around KAY/O, with combat buffs and a downed-but-revivable state on death.
-- **In-game role:** Best into comps reliant on utility (Killjoy, Viper, Cypher, etc.); initiates with flash + knife to shut down counter‑util. [valorant.fandom](https://valorant.fandom.com/wiki/Abilities)
+- **In-game role:** Best into comps reliant on utility (Killjoy, Viper, Cypher, etc.); initiates with flash + knife to shut down counter‑util. 
 
 ***
 
-### Fade – Initiator (info + crowd control / anti-hide) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Fade – Initiator (info + crowd control / anti-hide) 
 - **Playstyle:** Info initiator who marks enemies with “trails” and traps them.
 - **C – Prowler:** Controllable creature that follows trails and nearsights enemies.
 - **Q – Seize:** Tether that traps enemies in a small zone, applying decay + deafened.
@@ -174,7 +174,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Gekko – Initiator (pet-based utility / plant & retake monster) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Gekko – Initiator (pet-based utility / plant & retake monster) 
 - **Playstyle:** Pets that can be **reused** by picking up globules; huge value over a round.
 - **C – Moshpit:** AoE grenade that deals massive damage if enemies stay in center.
 - **Q – Wingman:** Pet that can either concuss enemies or **plant/defuse spike** when given the spike.
@@ -184,7 +184,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Tejo – Initiator (damage & suppress artillery) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Tejo – Initiator (damage & suppress artillery) 
 - **Playstyle:** High-damage, map-control initiator with missiles and suppression.
 - **C – Stealth Drone:** Quiet drone that can be detonated to reveal and suppress enemies in an area.
 - **Q – Special Delivery:** Sticky grenade that detonates and concusses in its radius.
@@ -196,7 +196,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ## 4. Controllers
 
-### Brimstone – Controller (simple, powerful smokes) [beebom](https://beebom.com/valorant-brimstone-abilities-tips-tricks/)
+### Brimstone – Controller (simple, powerful smokes) 
 - **Playstyle:** Classic, easy‑to-use smoker with long-lasting smokes and strong post‑plant.
 - **C – Stim Beacon:** AoE combat stim boosting fire rate, reload, movement.
 - **Q – Incendiary:** Molly grenade that creates a damaging fire zone.
@@ -206,7 +206,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Omen – Controller (flex / lurk controller) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Omen – Controller (flex / lurk controller) 
 - **Playstyle:** Smokes plus teleports and blind; plays aggressively and can reposition constantly.
 - **C – Shrouded Step:** Short-range teleport to marked spot.
 - **Q – Paranoia:** Long, piercing shadow projectile that blinds and deafens along a path.
@@ -216,7 +216,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Viper – Controller (poison area control / anchor) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Viper – Controller (poison area control / anchor) 
 - **Playstyle:** Fuel-based poison kit; excels on maps with chokes and post-plant lineups.
 - **Passives – Toxin & Fuel:** Her abilities apply decay and consume/recover fuel.
 - **C – Snakebite:** Poison puddle that damages and applies increased damage (vulnerable/decay).
@@ -227,7 +227,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Astra – Controller (global control / high skill-ceiling) [dotesports](https://dotesports.com/valorant/news/all-character-abilities-valorant)
+### Astra – Controller (global control / high skill-ceiling) 
 - **Playstyle:** Places Stars from Astral Form and converts them into various utility.
 - **Passive – Astral Form:** Map view to place and manage Stars.
 - **C – Gravity Well:** Pulls players toward center and applies Vulnerable briefly.
@@ -238,7 +238,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Harbor – Controller (water walls / protective utility) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Harbor – Controller (water walls / protective utility) 
 - **Playstyle:** Uses water-based walls and dome to protect team pushes and plants.
 - **C – Cascade:** Moving water wall that blocks vision and slows.
 - **Q – Cove:** Bullet-blocking water dome that provides cover but can be broken.
@@ -248,7 +248,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Clove – Controller (aggressive “battle controller” + self-revive) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Clove – Controller (aggressive “battle controller” + self-revive) 
 - **Playstyle:** Hybrid controller/duelist; can play aggressively and still smoke after death.
 - **C – Pick-Me-Up:** After a kill/assist, consume essence for temporary HP and movement speed.
 - **Q – Meddle:** AoE decay projectile that heavily reduces HP temporarily.
@@ -260,7 +260,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ## 5. Sentinels
 
-### Sage – Sentinel (healer / wall anchor) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Sage – Sentinel (healer / wall anchor) 
 - **Playstyle:** Strong lane blocker and team sustain.
 - **C – Barrier Orb:** Thick, high HP wall that blocks paths and creates boost angles.
 - **Q – Slow Orb:** AoE slowing field that makes loud footsteps.
@@ -270,7 +270,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Cypher – Sentinel (info trap anchor) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Cypher – Sentinel (info trap anchor) 
 - **Playstyle:** Vision and trap network for flank and site control.
 - **C – Trapwire:** Tripwire that reveals, tethers, and briefly stuns enemies.
 - **Q – Cyber Cage:** Vision-blocking cage that slows and gives audio cue when crossed.
@@ -280,7 +280,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Killjoy – Sentinel (turret & lockdown area control) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Killjoy – Sentinel (turret & lockdown area control) 
 - **Playstyle:** Strongest pure site lock-down with turret, nades, and lock ult.
 - **C – Nanoswarm:** Remote-activated grenade that creates a high-DPS AoE field.
 - **Q – Alarmbot:** Stealth bot that runs at detected enemies, applying Vulnerable.
@@ -290,7 +290,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Chamber – Sentinel (sharpshooter / teleport) [ign](https://www.ign.com/wikis/valorant/Valorant_Characters:_All_Agents)
+### Chamber – Sentinel (sharpshooter / teleport) 
 - **Playstyle:** Hybrid sentinel/duelist focused on pick potential with powerful weapons.
 - **C – Trademark:** Trap that reveals and slows enemies when triggered.
 - **Q – Headhunter:** Heavy pistol with ADS and high damage (sheriff‑type).
@@ -300,7 +300,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Deadlock – Sentinel (trap + single-target pick ult) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Deadlock – Sentinel (trap + single-target pick ult) 
 - **Playstyle:** Uses nanowire geometry to trap, slow, and punish noisy enemies.
 - **C – GravNet:** Grenade that forces enemies into crouch and heavy slow when caught.
 - **Q – Sonic Sensor:** Wall/ground device that concusses when it detects loud noises (steps, shots, reloads).
@@ -310,7 +310,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Vyse – Sentinel (aggressive sentinel with flash & weapon-denial ult) [beebom](https://beebom.com/valorant-characters-agents-abilities/)
+### Vyse – Sentinel (aggressive sentinel with flash & weapon-denial ult) 
 - **Playstyle:** Sentinel with initiator-like tools, including a flash and area weapon denial.
 - **C – Razorvine:** Ground bramble that damages and slows enemies walking through.
 - **Q – Shear:** Trap that creates a temporary wall when triggered, cutting sightlines and movement.
@@ -320,7 +320,7 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 ***
 
-### Veto – Sentinel (utility destroyer / anti-ability tank) [egamersworld](https://egamersworld.com/blog/new-valorant-agent-veto-details-abilities-role-rel-QHBZcpqZHn)
+### Veto – Sentinel (utility destroyer / anti-ability tank) 
 - **Playstyle:** Designed to **shut down enemy abilities** and act as a front-line juggernaut.
 - **C – Crosscut:** Placeable vortex beacon you can **teleport** to while in range (mobility anchor like Chamber/Yoru hybrid).
 - **Q – Chokehold:** Trap that snares, deafens, and decays enemies when triggered; can be destroyed pre‑activation.
@@ -347,9 +347,9 @@ Below, each agent includes: **class, brief playstyle, abilities, and in-game rol
 
 Maps guide:
 As of the current patches, VALORANT has **11 standard (bomb/defuse) maps** that you’ll see in Ranked/Unrated:  
-**Bind, Haven, Split, Ascent, Icebox, Breeze, Fracture, Pearl, Lotus, Sunset, Abyss, Corrode**. [dving](https://dving.net/guides/valorant/gaid-po-vsem-kartam)
+**Bind, Haven, Split, Ascent, Icebox, Breeze, Fracture, Pearl, Lotus, Sunset, Abyss, Corrode**. 
 
-(There’s also **The Range** plus 5 Team Deathmatch maps like District, Kasbah, etc., but those are separate from the main tactical map pool.) [bo3](https://bo3.gg/valorant/articles/a-summary-of-all-valorant-maps)
+(There’s also **The Range** plus 5 Team Deathmatch maps like District, Kasbah, etc., but those are separate from the main tactical map pool.) 
 
 Below is a concise but detailed overview of **each standard map**: layout, unique mechanics, and how they tend to play on attack/defense.
 
@@ -357,7 +357,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 1. Bind – 2 sites, teleporters, no mid
 
-- **Location / structure:** Moroccan-themed map in Rabat, with **two sites (A and B)** and **no true mid lane**; attackers must approach via two main corridors: A Short / A Bath, and B Long / B Hookah. [esportsinsider](https://esportsinsider.com/valorant-maps)
+- **Location / structure:** Moroccan-themed map in Rabat, with **two sites (A and B)** and **no true mid lane**; attackers must approach via two main corridors: A Short / A Bath, and B Long / B Hookah. 
 - **Unique mechanics:**  
   - **Two one‑way teleporters:**  
     - A Short → B Long  
@@ -378,7 +378,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 2. Haven – 3 sites, heavy rotations
 
-- **Location / structure:** Bhutan monastery setting with **three sites (A, B, C)**, making defenders spread thinner than on any other map. [esportsinsider](https://esportsinsider.com/valorant-maps)
+- **Location / structure:** Bhutan monastery setting with **three sites (A, B, C)**, making defenders spread thinner than on any other map. 
 - **Unique mechanics:**  
   - First VALORANT map with **3 spike sites**, no special doors/teleports.  
   - Central **Mid / Garage** area connects to both B and C; A has its own approach via A Long / A Short.
@@ -397,7 +397,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 3. Split – 2 sites, verticality and tight chokes
 
-- **Location / structure:** Tokyo high‑rise city with **two sites** and a strong emphasis on **vertical fights (Ropes, Heaven)**. [thespike](https://www.thespike.gg/valorant/maps)
+- **Location / structure:** Tokyo high‑rise city with **two sites** and a strong emphasis on **vertical fights (Ropes, Heaven)**. 
 - **Unique mechanics:**  
   - **Ropes/ziplines** between Mid and A Heaven, plus many elevated “Heaven” positions on both sites.  
   - Multiple tight corridors and 90° corners (A Main, B Main, Vents, Mail, Sewer).
@@ -416,9 +416,9 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 4. Ascent – 2 sites, classic mid map with doors
 
-- **Location / structure:** Floating Venice-style city in Italy with **two sites** and a large, open **Mid courtyard** connecting them. [beebom](https://beebom.com/valorant-ascent-map-guide/)
+- **Location / structure:** Floating Venice-style city in Italy with **two sites** and a large, open **Mid courtyard** connecting them. 
 - **Unique mechanics:**  
-  - **Mechanical doors** on A Link and B Market that can be shot to break; when closed, they strongly cut rotations. [turbosmurfs](https://turbosmurfs.gg/article/the-7-maps-in-valorant-rotation)
+  - **Mechanical doors** on A Link and B Market that can be shot to break; when closed, they strongly cut rotations. 
   - Very clear three-lane structure: **A lane, Mid, B lane**.
 - **How it plays (attack):**  
   - Mid control is **the core win condition**: from Mid, attackers can split A (through Tree) or B (through Market).  
@@ -435,18 +435,18 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 5. Icebox – 2 sites, vertical and tight with ziplines
 
-- **Location / structure:** Arctic shipping yard with **two vertically layered sites** and heavy use of containers and ropes. [dving](https://dving.net/guides/valorant/gaid-po-vsem-kartam)
+- **Location / structure:** Arctic shipping yard with **two vertically layered sites** and heavy use of containers and ropes. 
 - **Unique mechanics:**  
   - **Ziplines** under B, elevated planting platforms on both sites.  
   - Many vertical fighting positions (A Nest, Rafters, B Yellow, Tube).
 - **How it plays (attack):**  
-  - Emphasis on fast, explosive takes and **post‑plant lineups** (especially on A default and B default). [boosting-ground](https://boosting-ground.com/Valorant/guides/map-guides/all-maps-overview)
+  - Emphasis on fast, explosive takes and **post‑plant lineups** (especially on A default and B default). 
   - Controlling areas like **Kitchen / Tube (Mid)** lets attackers choke rotations and flank defenders.
 - **How it plays (defense):**  
   - Defenders use vertical spots (Rafters, Nest, Yellow, Snowman) plus utility delays (Viper walls, Sage walls, Killjoy nades).  
   - Rotations are relatively quick, but retaking high ground is risky.
 - **Strong agents:**  
-  - **Viper** is almost mandatory in many metas for her one‑ways and plant walls. [boosting-ground](https://boosting-ground.com/Valorant/guides/map-guides/all-maps-overview)
+  - **Viper** is almost mandatory in many metas for her one‑ways and plant walls. 
   - **Sage** for plant walls and mid/lane control.  
   - **Initiators:** Sova, KAY/O, Skye; **Duelists:** Jett/Raze for vertical fights.
 
@@ -454,7 +454,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 6. Breeze – 2 sites, long range and open spaces
 
-- **Location / structure:** Caribbean-style island ruins with **huge open areas**, long sightlines, and two sites. [esportsinsider](https://esportsinsider.com/valorant-maps)
+- **Location / structure:** Caribbean-style island ruins with **huge open areas**, long sightlines, and two sites. 
 - **Unique mechanics:**  
   - Extremely **long-range fights** (A Main, Mid Doors, B Long) and wide sites.  
   - Rope/elevated areas around Mid and A.
@@ -473,7 +473,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 7. Fracture – 2 sites, H-shaped with split attacker spawns
 
-- **Location / structure:** Desert facility with a unique **H-shaped layout** and **attackers spawning on both sides of the map**. [dving](https://dving.net/guides/valorant/gaid-po-vsem-kartam)
+- **Location / structure:** Desert facility with a unique **H-shaped layout** and **attackers spawning on both sides of the map**. 
 - **Unique mechanics:**  
   - Attackers start above A Drop/A Dish and B Arcade areas, effectively **surrounding defenders**.  
   - A and B sites are at top and bottom of the “H”, with a central defender spawn.  
@@ -493,7 +493,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 8. Pearl – 2 sites, pure mid-control map
 
-- **Location / structure:** Underwater Omega‑Earth city with **two sites** and a very “classic” **lanes + central mid** design. [esportsinsider](https://esportsinsider.com/valorant-maps)
+- **Location / structure:** Underwater Omega‑Earth city with **two sites** and a very “classic” **lanes + central mid** design.
 - **Unique mechanics:**  
   - No teleporters or doors; just **clean macro design** with many paths and angles.  
   - Long corridors (A Main, B Long) but also strong close-quarters fights in Mid and Connector.
@@ -512,7 +512,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 9. Lotus – 3 sites, rotating doors
 
-- **Location / structure:** Indian ruins with lush vegetation, featuring **three sites (A, B, C)** and many **rotational shortcuts**. [dving](https://dving.net/guides/valorant/gaid-po-vsem-kartam)
+- **Location / structure:** Indian ruins with lush vegetation, featuring **three sites (A, B, C)** and many **rotational shortcuts**. 
 - **Unique mechanics:**  
   - **Rotating stone doors** between A Main ↔ A Tree and between B ↔ C, which make **fast, noisy rotations** possible.  
   - Breakable door at A Main; multiple drop-downs and tight spaces.
@@ -531,7 +531,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 10. Sunset – 2 sites, LA-themed, mid-centric with breakable door
 
-- **Location / structure:** Los Angeles-inspired city at sunset, **two sites** with a very important **Mid** and connector structure. [overgear](https://overgear.com/guides/valorant/maps-list/)
+- **Location / structure:** Los Angeles-inspired city at sunset, **two sites** with a very important **Mid** and connector structure. 
 - **Unique mechanics:**  
   - **Breakable door** near B Market that controls access between Mid and B; destroying it changes rotation timings.  
   - Traditional three-lane design: A Main, Mid, B Main.
@@ -550,10 +550,10 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 11. Abyss – 2 sites, vertical and “no walls” edges
 
-- **Location / structure:** Floating monastery-like structure with **two sites** and **no railings** on much of the map; you can fall off and die. [playvalorant](https://playvalorant.com/en-us/news/dev/state-of-the-maps-july-2024/)
+- **Location / structure:** Floating monastery-like structure with **two sites** and **no railings** on much of the map; you can fall off and die. 
 - **Unique mechanics:**  
   - **Falling hazard:** Many walkways have open edges, so knockback or movement mistakes cause instant death.  
-  - Strong verticality with multiple levels and zipline segments. [overgear](https://overgear.com/guides/valorant/maps-list/)
+  - Strong verticality with multiple levels and zipline segments. 
 - **How it plays (attack):**  
   - Attackers must **control high ground** and watch their movement; satchels, dashes, and pushes can be lethal if misused.  
   - Mid and vertical positions open strong split routes into both A and B.
@@ -569,7 +569,7 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 12. Corrode – 2 sites, environmental hazards & decay
 
-- **Location / structure:** Industrial/corroded facility (introduced 2025) with **two sites** and heavily segmented lanes. [lagofast](https://www.lagofast.com/en/blog/valorant-maps-guide/)
+- **Location / structure:** Industrial/corroded facility (introduced 2025) with **two sites** and heavily segmented lanes. 
 - **Unique mechanics:**  
   - **Decay/acid zones** in parts of the map that temporarily lower HP when traversed (similar to Viper’s mechanic but built into the environment).  
   - Tight corridors and chokepoints, with some raised catwalks and underpasses.
@@ -588,8 +588,8 @@ Below is a concise but detailed overview of **each standard map**: layout, uniqu
 
 ## 13. Non-standard maps (for completeness)
 
-- **The Range:** Practice map in London used for aim and ability training; includes bots, spike plant drills, and recoil tests. [esportsinsider](https://esportsinsider.com/valorant-maps)
-- **TDM maps (District, Kasbah, Piazza, Drift, Glitch):** Smaller, mirrored/arena-style maps focused on constant fighting, weapon spawns, and respawns – no spike, no econ. [bo3](https://bo3.gg/valorant/articles/a-summary-of-all-valorant-maps)
+- **The Range:** Practice map in London used for aim and ability training; includes bots, spike plant drills, and recoil tests. 
+- **TDM maps (District, Kasbah, Piazza, Drift, Glitch):** Smaller, mirrored/arena-style maps focused on constant fighting, weapon spawns, and respawns – no spike, no econ. 
 
 ***
 
@@ -947,7 +947,6 @@ In the end, T1's decisive 13-0 victory not only underscored their skill but also
 <!-- ######################################################################################################################## -->
 
 Match 5:
-
 
 **Overview of the Grand Final**
 

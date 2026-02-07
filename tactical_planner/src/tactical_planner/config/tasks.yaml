@@ -1,17 +1,41 @@
-research_task:
+study_game:
   description: >
     Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is {current_year}.
+    Make sure you find any interesting and relevant information.
+    You must know everthing that is relevant in context of esports
+    about {topic}. 
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
-  agent: researcher
+    A deep understanding of the game {topic}
+  agent: studying_agent
 
-reporting_task:
+analyze_vul:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    inputs:
+    scout_report: "{{ scout_report }}"
+
+    Based on the given {scout_report} and the context provided by study_game task, identify
+    the key vulnerabilities in their gameplay, comps, default site setups and any player specific
+    weak trait that can be exploited. Also focus on the main fragger of the opponent team so that
+    he could be quickly punished for his game style.
   expected_output: >
-    A fully fledged report with the main topics, each with a full section of information.
-    Formatted as markdown without '```'
-  agent: reporting_analyst
+    A full list of vulnerabilities of any type.
+  agent: planning_agent
+  context: 
+    - study_game
+
+plan_attack:
+  description: >
+    Based on the identified vulnerabilities, craft an approach that can be used in attack phase to crush the opponent.
+    Also craft a intelligent approach to deal with opponent in defense phase. Focus on the key traits
+    of the player who plays a key role in the opponent team and is known for grabbing maximum
+    frags. Develop a key strategy to counter him, so that full team will fell handicap after fragging the key player.
+
+  expected_output: >
+    Mention the output in 3 sections:
+    1.Attack phase tactics
+    2.Defense phase tactics
+    3.Key player tactics
+  agent: counter_planner
+  context: 
+    - study_game
+    - analyze_vul
