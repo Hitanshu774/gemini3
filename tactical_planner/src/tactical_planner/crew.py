@@ -3,6 +3,7 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledgeSource
+from one import run_scouting_report
 
 tactical_md = TextFileKnowledgeSource(
     file_paths=[
@@ -14,6 +15,8 @@ tactical_md = TextFileKnowledgeSource(
     vector_store=None,  # Pure reference (your requirement)
     chunk_overlap=0     # No splitting
 )
+
+scout_report = run_scouting_report("NRG")
 
 @CrewBase
 class TacticalPlanner():
@@ -58,8 +61,11 @@ class TacticalPlanner():
     def analyze_vul(self) -> Task:
         return Task(
             config=self.tasks_config['analyze_vul'], # type: ignore[index]
+            inputs = {"scout_report": scout_report},
+            context= [self.study_game],
             output_file='report.md'
         )
+        
     @task
     def plan_attack(self) -> Task:
         return Task(
