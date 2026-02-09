@@ -42,7 +42,7 @@ class TacticalPlanner():
     def studying_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['studying_agent'], # type: ignore[index]
-            knowledge=tactical_md,
+            # knowledge=tactical_md,
             verbose=True
         )
 
@@ -50,7 +50,7 @@ class TacticalPlanner():
     def planning_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['planning_agent'], # type: ignore[index]
-            knowledge=tactical_md,
+            # knowledge=tactical_md,
             verbose=True
         )
     
@@ -58,7 +58,7 @@ class TacticalPlanner():
     def counter_planner(self) -> Agent:
         return Agent(
             config=self.agents_config['counter_planner'], # type: ignore[index]
-            knowledge=tactical_md,
+            # knowledge=tactical_md,
             verbose=True
         )
 
@@ -96,5 +96,6 @@ class TacticalPlanner():
             tasks=self.tasks, # Automatically created by the @task decorator
             process=Process.sequential,
             verbose=True,
+            knowledge_sources=[tactical_source]
             # process=Process.hierarchical, # In case you wanna use that instead https://docs.crewai.com/how-to/Hierarchical/
         )
