@@ -17,42 +17,42 @@ load_dotenv(override=True)
 from langchain_community.document_loaders import TextLoader
 
 # team_name = input("Enter team name: ").strip()
-team_name = "NRG"  # Default for testing
+# team_name = "NRG"  # Default for testing
 
 
-# from langchain_text_splitters import MarkdownHeaderTextSplitter
+from langchain_text_splitters import MarkdownHeaderTextSplitter
 
-# loader = TextLoader(
-#     file_path="dataset0.md",
-#     encoding="utf-8"
+loader = TextLoader(
+    file_path="dataset0.md",
+    encoding="utf-8"
+)
+
+documents = loader.load()
+
+text_splitter = RecursiveCharacterTextSplitter(chunk_size = 650, chunk_overlap = 100)
+chunks= text_splitter.split_documents(documents) 
+
+#######################################################################################################
+#######################################################################################################
+
+embeddings = HuggingFaceEmbeddings(model_name = "all-MiniLM-L6-v2")
+# embeddings = HuggingFaceEmbeddings(model_name = "BAAI/bge-large-en-v1.5")
+
+db_name = "vector_db1"
+
+if os.path.exists(db_name):
+    Chroma(persist_directory=db_name, embedding_function=embeddings).delete_collection()
+    
+vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings, persist_directory=db_name)
+
+# embedding = HuggingFaceEmbeddings(
+#     model_name="all-MiniLM-L6-v2"
 # )
 
-# documents = loader.load()
-
-# text_splitter = RecursiveCharacterTextSplitter(chunk_size = 650, chunk_overlap = 100)
-# chunks= text_splitter.split_documents(documents) 
-
-#######################################################################################################
-#######################################################################################################
-
-# embeddings = HuggingFaceEmbeddings(model_name = "all-MiniLM-L6-v2")
-# # embeddings = HuggingFaceEmbeddings(model_name = "BAAI/bge-large-en-v1.5")
-
-# db_name = "vector_db1"
-
-# if os.path.exists(db_name):
-#     Chroma(persist_directory=db_name, embedding_function=embeddings).delete_collection()
-    
-# vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings, persist_directory=db_name)
-
-embedding = HuggingFaceEmbeddings(
-    model_name="all-MiniLM-L6-v2"
-)
-
-vectordb = Chroma(
-    persist_directory="./vector_db1",
-    embedding_function=embedding
-)
+# vectordb = Chroma(
+#     persist_directory="./vector_db1",
+#     embedding_function=embedding
+# )
 ######################################################################################################3
 #######################################################################################################
 
