@@ -20,7 +20,7 @@ def run():
     inputs = {
         'topic': 'Valorant',
         'current_year': str(datetime.now().year),
-        "scout_report": run_scouting_report("NRG")
+        "scout_report": run_scouting_report(team_name)
     }
     
     try:
@@ -29,6 +29,7 @@ def run():
         raise Exception(f"An error occurred while running the crew: {e}")
 
 if __name__ == "__main__":
+    team_name = input("Enter the team name : ").strip()
     run()
 
 

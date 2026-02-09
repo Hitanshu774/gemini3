@@ -3,7 +3,6 @@ from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from typing import List
 from crewai.knowledge.source.text_file_knowledge_source import TextFileKnowledgeSource
-from one import run_scouting_report
 from crewai import Knowledge
 
 # tactical_md = TextFileKnowledgeSource(

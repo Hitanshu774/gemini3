@@ -395,3 +395,5 @@ def run_scouting_report(team_input):
 #     outputs=gr.Markdown(label="Scouting Report"),
 #     submit_btn="Generate Report"
 # ).launch(inbrowser=True)
+
+
