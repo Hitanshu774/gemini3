@@ -8,6 +8,8 @@ from langchain_community.document_loaders import DirectoryLoader, TextLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_core.messages import SystemMessage, HumanMessage
 from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
+
 
 
 import gradio as gr
@@ -57,18 +59,18 @@ vectordb = Chroma.from_documents(documents=chunks, embedding=embeddings, persist
 #######################################################################################################
 
 retreiver = vectordb.as_retriever(search_type="similarity",search_kwargs={"k": 3})
-# llm = ChatGoogleGenerativeAI(
-#     model="gemini-3-pro-preview",
-#     temperature=0.1,
-#     max_output_tokens=512,
-#     google_api_key=os.getenv("GOOGLE_API_KEY")
-# )
-llm = ChatOpenAI(
-    model="stepfun/step-3.5-flash:free",  # example
-    openai_api_key=os.getenv("API_KEY"),
-    openai_api_base="https://openrouter.ai/api/v1",
+llm = ChatGoogleGenerativeAI(
+    model="gemini-3-flash-preview",
     temperature=0.1,
+    # max_output_tokens=512,
+    google_api_key=os.getenv("GOOGLE_API_KEY")
 )
+# llm = ChatOpenAI(
+#     model="stepfun/step-3.5-flash:free",  # example
+#     openai_api_key=os.getenv("API_KEY"),
+#     openai_api_base="https://openrouter.ai/api/v1",
+#     temperature=0.1,
+# )
 
 #######################################################################################################
 
@@ -158,18 +160,18 @@ vectordb2 = Chroma.from_documents(documents=chunks2, embedding=embeddings2, pers
 #######################################################################################################
 
 retreiver2 = vectordb2.as_retriever(search_type="similarity",search_kwargs={"k": 3})
-# llm = ChatGoogleGenerativeAI(
-#     model="gemini-3-pro-preview",
-#     temperature=0.3,
-#     max_output_tokens=512,
-#     google_api_key=os.getenv("GOOGLE_API_KEY")
-# )
-llm2 = ChatOpenAI(
-    model="stepfun/step-3.5-flash:free",  # example
-    openai_api_key=os.getenv("API_KEY"),
-    openai_api_base="https://openrouter.ai/api/v1",
+llm2 = ChatGoogleGenerativeAI(
+    model="gemini-3-flash-preview",
     temperature=0.1,
+    # max_output_tokens=512,
+    google_api_key=os.getenv("GOOGLE_API_KEY")
 )
+# llm2 = ChatOpenAI(
+#     model="stepfun/step-3.5-flash:free",  # example
+#     openai_api_key=os.getenv("API_KEY"),
+#     openai_api_base="https://openrouter.ai/api/v1",
+#     temperature=0.1,
+# )
 
 #######################################################################################################
 
@@ -260,18 +262,18 @@ vectordb3 = Chroma.from_documents(documents=chunks3, embedding=embeddings3, pers
 #######################################################################################################
 
 retreiver3 = vectordb3.as_retriever(search_type="similarity",search_kwargs={"k": 3})
-# llm = ChatGoogleGenerativeAI(
-#     model="gemini-3-pro-preview",
-#     temperature=0.3,
-#     max_output_tokens=512,
-#     google_api_key=os.getenv("GOOGLE_API_KEY")
-# )
-llm3 = ChatOpenAI(
-    model="stepfun/step-3.5-flash:free",  # example
-    openai_api_key=os.getenv("API_KEY"),
-    openai_api_base="https://openrouter.ai/api/v1",
+llm3 = ChatGoogleGenerativeAI(
+    model="gemini-3-flash-preview",
     temperature=0.1,
+    # max_output_tokens=512,
+    google_api_key=os.getenv("GOOGLE_API_KEY")
 )
+# llm3 = ChatOpenAI(
+#     model="stepfun/step-3.5-flash:free",  # example
+#     openai_api_key=os.getenv("API_KEY"),
+#     openai_api_base="https://openrouter.ai/api/v1",
+#     temperature=0.1,
+# )
 
 #######################################################################################################
 
@@ -326,11 +328,18 @@ def answer_question3(question: str):
 ###################################################################################################################
 ###################################################################################################################
 
-llm4 = ChatOpenAI(
-    model="nvidia/nemotron-nano-9b-v2:free",  # example
-    openai_api_key=os.getenv("API_KEY"),
-    openai_api_base="https://openrouter.ai/api/v1",
+# llm4 = ChatOpenAI(
+#     model="nvidia/nemotron-nano-9b-v2:free",  # example
+#     openai_api_key=os.getenv("API_KEY"),
+#     openai_api_base="https://openrouter.ai/api/v1",
+#     temperature=0.1,
+# )
+
+llm4 = ChatGoogleGenerativeAI(
+    model="gemini-3-flash-preview",
     temperature=0.1,
+    # max_output_tokens=512,
+    google_api_key=os.getenv("GOOGLE_API_KEY")
 )
 SCOUTING_REPORT_PROMPT ="""
 You are a report-generation agent specialized in Valorant competitive scouting reports.

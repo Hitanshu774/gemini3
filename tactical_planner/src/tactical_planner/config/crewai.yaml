@@ -1,0 +1,6 @@
+knowledge:
+  embedding_model:
+    provider: "huggingface"
+    config:
+      model_name: "all-MiniLM-L6-v2"
+      device: "cpu"
