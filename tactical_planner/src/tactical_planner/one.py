@@ -123,37 +123,37 @@ def answer_question(question: str):
 
 
 
-# loader2 = TextLoader(
-#     file_path="dataset1.md",
-#     encoding="utf-8"
+loader2 = TextLoader(
+    file_path="dataset1.md",
+    encoding="utf-8"
+)
+
+documents2 = loader2.load()
+
+text_splitter2 = RecursiveCharacterTextSplitter(chunk_size = 650, chunk_overlap = 100)
+chunks2= text_splitter2.split_documents(documents2) 
+
+#######################################################################################################
+#######################################################################################################
+
+embeddings2 = HuggingFaceEmbeddings(model_name = "all-MiniLM-L6-v2")
+# embeddings = HuggingFaceEmbeddings(model_name = "BAAI/bge-large-en-v1.5")
+
+db_name2 = "vector_db2"
+
+if os.path.exists(db_name2):
+    Chroma(persist_directory=db_name2, embedding_function=embeddings2).delete_collection()
+    
+vectordb2 = Chroma.from_documents(documents=chunks2, embedding=embeddings2, persist_directory=db_name2)
+
+# embedding2 = HuggingFaceEmbeddings(
+#     model_name="all-MiniLM-L6-v2"
 # )
 
-# documents2 = loader2.load()
-
-# text_splitter2 = RecursiveCharacterTextSplitter(chunk_size = 650, chunk_overlap = 100)
-# chunks2= text_splitter2.split_documents(documents2) 
-
-#######################################################################################################
-#######################################################################################################
-
-# embeddings2 = HuggingFaceEmbeddings(model_name = "all-MiniLM-L6-v2")
-# # embeddings = HuggingFaceEmbeddings(model_name = "BAAI/bge-large-en-v1.5")
-
-# db_name2 = "vector_db2"
-
-# if os.path.exists(db_name2):
-#     Chroma(persist_directory=db_name2, embedding_function=embeddings2).delete_collection()
-    
-# vectordb2 = Chroma.from_documents(documents=chunks2, embedding=embeddings2, persist_directory=db_name2)
-
-embedding2 = HuggingFaceEmbeddings(
-    model_name="all-MiniLM-L6-v2"
-)
-
-vectordb2 = Chroma(
-    persist_directory="./vector_db2",
-    embedding_function=embedding2
-)
+# vectordb2 = Chroma(
+#     persist_directory="./vector_db2",
+#     embedding_function=embedding2
+# )
 ######################################################################################################3
 #######################################################################################################
 
@@ -225,27 +225,37 @@ def answer_question2(question: str):
 
 ##########################################################################################################################
 
-# loader3 = TextLoader(
-#     file_path="dataset2.md",
-#     encoding="utf-8"
-# )
+loader3 = TextLoader(
+    file_path="dataset2.md",
+    encoding="utf-8"
+)
 
-# documents3 = loader3.load()
+documents3 = loader3.load()
 
-# text_splitter3 = RecursiveCharacterTextSplitter(chunk_size = 650, chunk_overlap = 100)
-# chunks3= text_splitter.split_documents(documents3) 
+text_splitter3 = RecursiveCharacterTextSplitter(chunk_size = 650, chunk_overlap = 100)
+chunks3= text_splitter.split_documents(documents3) 
 
+################
+embeddings3 = HuggingFaceEmbeddings(model_name = "all-MiniLM-L6-v2")
+# embeddings = HuggingFaceEmbeddings(model_name = "BAAI/bge-large-en-v1.5")
+
+db_name3 = "vector_db3"
+
+if os.path.exists(db_name3):
+    Chroma(persist_directory=db_name3, embedding_function=embeddings3).delete_collection()
+    
+vectordb3 = Chroma.from_documents(documents=chunks3, embedding=embeddings3, persist_directory=db_name3)
 
 #######################################################################################################
 
-embedding3 = HuggingFaceEmbeddings(
-    model_name="all-MiniLM-L6-v2"
-)
+# embedding3 = HuggingFaceEmbeddings(
+#     model_name="all-MiniLM-L6-v2"
+# )
 
-vectordb3 = Chroma(
-    persist_directory="./vector_db3",
-    embedding_function=embedding3
-)
+# vectordb3 = Chroma(
+#     persist_directory="./vector_db3",
+#     embedding_function=embedding3
+# )
 
 #######################################################################################################
 
