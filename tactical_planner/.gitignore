@@ -1,3 +1,6 @@
 .env
 __pycache__/
 .DS_Store
+/home/gemini3/tactical_planner/src/tactical_planner/vector_db1
+/home/gemini3/tactical_planner/src/tactical_planner/vector_db2
+/home/gemini3/tactical_planner/src/tactical_planner/vector_db3
